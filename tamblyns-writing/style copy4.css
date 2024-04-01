@@ -48,22 +48,23 @@ h1{
     font-size: 40px;
 }
 
-  div#content {
-    border:2px solid #904A36;
-    width:600;
-    margin:20px 0 10px 175px;
-    min-height:500px;
-    height:700px
-  }
+#page{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: 95%;
+}
 
-  div#action {
-    position:absolute;
-    top:50px;
-    right:10px;
-    border:2px solid #904A36;
-    width:600px;
-    margin:0;
-    height:700px;
-  }
+#content{
+    border: #944918 solid 3px;
+    width: 50%;
+    margin-right: 10px;
+
+}
+#action{
+    border: #944918 solid 3px;
+    width: 50%;
+
+}
 
 
