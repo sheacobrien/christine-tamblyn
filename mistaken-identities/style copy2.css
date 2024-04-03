@@ -49,3 +49,40 @@ h1{
 }
 
 
+#page{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: 95%;
+}
+
+#content{
+    border: #904A36 solid 3px;
+    width: 50%;
+    margin-right: 10px;
+    background-color: hsl(13, 45%, 39%, 25%);
+
+
+}
+#action{
+    border: #904A36 solid 3px;
+    width: 50%;
+    background-color: hsl(13, 45%, 39%, 25%);
+
+}
+
+img{
+    padding: 3px;
+    border: 4px solid #6c6c85 ;
+    background-color: #6c6c85;
+}
+
+h2{
+text-align: center;
+font-size: 15px;
+color: #944918;
+font: bold;
+font-family: "Lobster Two", sans-serif;
+}
+
+

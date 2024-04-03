@@ -57,14 +57,16 @@ h1{
 }
 
 #content{
-    border: #944918 solid 3px;
+    border: #904A36 solid 3px;
     width: 50%;
     margin-right: 10px;
-
+    background-color: hsl(13, 45%, 39%, 25%);
 }
+
 #action{
-    border: #944918 solid 3px;
+    border: #904A36 solid 3px;
     width: 50%;
+    background-color: hsl(13, 45%, 39%, 25%);
 }
 
 img{
@@ -73,5 +75,12 @@ img{
     background-color: #6c6c85;
 }
 
+h2{
+text-align: center;
+font-size: 15px;
+color: #944918;
+font: bold;
+font-family: "Lobster Two", sans-serif;
+}
 
 
