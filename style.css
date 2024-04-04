@@ -41,9 +41,6 @@ body{
     text-align: center;
 }
 
-h1{
-    font-size: 40px;
-}
 
 img{
     padding: 3px;
@@ -89,7 +86,7 @@ img{
 
 img{
   padding: 3px;
-  border: 4px solid #6c6c85 ;
+  border: 4px solid #6c6c85;
   background-color: #6c6c85;
 }
 
@@ -186,5 +183,6 @@ padding-top: 10%;
   padding-right: 10%;
   display: flex;
 }
+
 
  

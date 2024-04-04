@@ -85,11 +85,14 @@ font: bold;
 font-family: "Lobster Two", sans-serif;
 }
 
-p{
+
+
+#text{
 text-align: center;
-font-size: 20px;
+font-size: 25px;
 color: #944918;
 font: bold;
 font-family: "Lobster Two", sans-serif;
-text-orientation: mixed;
+padding-left: 20%;
+padding-right: 20%;
 }
