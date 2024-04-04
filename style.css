@@ -36,9 +36,6 @@ a:hover{
     color: #944918;
 }
 
-.container{
-flex-wrap: wrap;
-}
 
 body{
     text-align: center;
@@ -66,22 +63,18 @@ img{
   width: 33%;
   margin-right: 10px;
   background-color: hsl(13, 45%, 39%, 25%);
-
-
 }
 #action{
   border: #904A36 solid 3px;
   width: 33%;
   margin-right: 10px;
   background-color: hsl(13, 45%, 39%, 25%);
-
 }
 
 #about{
   border: #904A36 solid 3px;
   width: 33%;
   background-color: hsl(13, 45%, 39%, 25%);
-
 }
 
 .first{
@@ -102,21 +95,22 @@ img{
 
 
 h1{
-font-size:45px;
+font-size:50px;
 color: #944918;
 font: bold;
 font-family: "Lobster Two", sans-serif; 
 padding-right: 25%;
-margin-bottom: 0%;
+margin-bottom: -5%;
 }
 
 h5{
-  font-size:45px;
+  font-size:50px;
   color: #944918;
   font: bold;
   font-family: "Lobster Two", sans-serif;
   padding-left: 20%;
   margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 p{
@@ -131,7 +125,7 @@ p{
 
 h2{
   text-align: center;
-  font-size: 55px;
+  font-size: 60px;
   color: #944918;
   font: bold;
   font-family: "Lobster Two", sans-serif; }
@@ -149,13 +143,12 @@ h3{
 
   h4{
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: #944918;
   font: bold;
   font-family: "Lobster Two", sans-serif;
-  padding-bottom: 20%;
+  margin-top: 3%;
   }
-
 
 
   .mistaken-identities{
@@ -164,20 +157,34 @@ h3{
   }
 
 .twogirls{
-padding-top: 15%;
-padding-right: 50%;
+padding-top: 10%;
+padding-left: 5%;
+display: flex;
 }
 
 .selfie{
   padding-left: 10%;
-  padding-top: 10%;
   justify-content: center;
+  margin-bottom: 30%;
+  margin-top: -5%;
 }
 
 .loves-it{
 padding-top: 10%;
 }
 
+#words{
+  line-height: 350%;
+  margin-left: 5%;
+}
 
+#quote{
+  text-align: center;
+  font-size: 25px;
+  color: #944918;
+  font-family: "Lobster Two", sans-serif;
+  padding-right: 10%;
+  display: flex;
+}
 
  
