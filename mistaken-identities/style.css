@@ -90,7 +90,7 @@ font-size: 15px;
 color: #944918;
 font: bold;
 font-family: "Lobster Two", sans-serif;
-padding-top: 70%;
+padding-top: 75%;
 }
 
 #rotate-images{
@@ -107,7 +107,7 @@ padding-top: 70%;
 
 @keyframes rotateImages{
     0%{
-        background-image: url(../images/pics/mistaken-identities.png)
+        background-image: url( ../images/pics/pic4.png)
     }
     25%{
         background-image: url(../images/pics/pic1.png);
@@ -119,6 +119,6 @@ padding-top: 70%;
         background-image: url(../images/pics/pic3.png);
     }
     100%{
-        background-image: url(../images/pics/pic4.png)
+        background-image: url(../images/pics/mistaken-identities.png)
     }
 }
