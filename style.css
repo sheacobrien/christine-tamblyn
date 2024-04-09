@@ -88,11 +88,16 @@ img{
   padding: 3px;
   border: 4px solid #6c6c85;
   background-color: #6c6c85;
+  animation: fadeIn 8s;
+}
+
+img:hover{
+transform: scale(105%);
 }
 
 
 h1{
-font-size:50px;
+font-size:45px;
 color: #944918;
 font: bold;
 font-family: "Lobster Two", sans-serif; 
@@ -101,7 +106,7 @@ margin-bottom: -5%;
 }
 
 h5{
-  font-size:50px;
+  font-size:45px;
   color: #944918;
   font: bold;
   font-family: "Lobster Two", sans-serif;
@@ -125,8 +130,10 @@ h2{
   font-size: 60px;
   color: #944918;
   font: bold;
-  font-family: "Lobster Two", sans-serif; }
+  font-family: "Lobster Two", sans-serif; 
+}
 
+  
 h3{
   text-align: center;
   font-size: 30px;
@@ -148,7 +155,7 @@ h3{
   }
 
 
-  .mistaken-identities{
+.mistaken-identities{
     margin-top: -50%;
     margin-left: 10%;
   }
@@ -160,10 +167,16 @@ display: flex;
 }
 
 .selfie{
-  padding-left: 10%;
+  padding-left: 20%;
   justify-content: center;
   margin-bottom: 30%;
   margin-top: -5%;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0};
+    100%{opacity:1};
 }
 
 .loves-it{
@@ -180,9 +193,17 @@ padding-top: 10%;
   font-size: 25px;
   color: #944918;
   font-family: "Lobster Two", sans-serif;
-  padding-right: 10%;
+  padding-right: 19%;
   display: flex;
 }
+
+@media screen and (max-width:600px){
+body{
+  overflow: scroll;
+}
+}
+
+
 
 
  

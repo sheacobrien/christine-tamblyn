@@ -74,7 +74,13 @@ img{
     padding: 3px;
     border: 4px solid #6c6c85 ;
     background-color: #6c6c85;
+    transition: all 0.5s ease;
+
 }
+
+img:hover{
+    transform: scale(105%);
+    }
 
 .news-1{
     display: flex;
@@ -88,4 +94,10 @@ img{
     padding-right: 50px;
     margin-top: -160px;
 }
+
+@media screen and (max-width:600px){
+    body{
+      overflow: scroll;
+    }
+    }
 
