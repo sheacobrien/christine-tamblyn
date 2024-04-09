@@ -68,6 +68,13 @@ h1{
     border: #904A36 solid 3px;
     width: 50%;
     background-color: hsl(13, 45%, 39%, 25%);
+    font-family: "Raleway", sans-serif;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 17px;
+    color: #944918;
+    line-height: 120%;
 
 }
 
