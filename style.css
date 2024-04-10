@@ -10,8 +10,6 @@ li{
     font-family: "Lobster Two", sans-serif; 
 }
 
-
-
 li.coming-soon{
 display: none;
 }
@@ -28,6 +26,10 @@ a:visited{
 
 a:hover{
     color: #944918;
+}
+
+a:hover{
+  color: #944918;
 }
 
 
