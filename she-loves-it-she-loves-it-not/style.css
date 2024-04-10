@@ -106,3 +106,9 @@ font-family: "Lobster Two", sans-serif;
     padding-left: 4%;
     padding-bottom: 1%;
   }
+
+  @media screen and (max-width:600px){
+    body{
+      overflow: scroll;
+    }
+    }
