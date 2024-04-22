@@ -82,7 +82,7 @@ img{
 
 img{
   padding: 3px;
-  border: 4px solid #6c6c85;
+  border: 4px solid hsl(240, 10%, 47%);
   background-color: #6c6c85;
   animation: fadeIn 8s;
 }
